@@ -61,7 +61,7 @@ C:\Program Files\Apache Software Foundation\apache-maven-3.1.1\bin
 
 4) Odpalamy "START"->cmd i następnie:
 
-Aby kompilacja się udała musimy zmienić katalog w miejsce gdzie znajduje się nasz projekt (niesamowicie konieczne jest aby kompilator miał w swoim zakresie działania plik pom.xml.Zmieniamy katalog w nstp. sposób (w naszym przypadku):
+Aby kompilacja się udała musimy zmienić katalog w miejsce gdzie znajduje się nasz projekt (niesamowicie konieczne jest aby kompilator miał w swoim zakresie działania plik pom.xml).Zmieniamy katalog w nstp. sposób (w naszym przypadku):
 
 cd C:\Program Files\Apache Software Foundation\apache-maven-3.1.1\bin
 
