@@ -45,15 +45,19 @@ jeżeli nie ma nic przypisanego do zmiennej Path zapisujemy to samo tylko bez pi
 
 d) Odpalamy "START" -> cmd -> a następnie wpisujemy do konsoli: mvn --version (jeżeli się poprawnie zainstalowało to będziemy mieli informacje m.in. o wersji naszego systemu operacyjnego,wersji mavena itp.)
 
-3) Wypakowujemy spakowany folder z aplikacją HelloWorldProject do 
-
-C:\Program Files\Apache Software Foundation\apache-maven-3.1.1\bin
+3) Wypakowujemy spakowane archiwum z aplikacją HelloWorldProject.
 
 UWAGA!!!! 
 
 Poprawnie powinno się wypakować projekt, następnie otworzyć folder Hello-World-master i dopiero kopiować HelloWorldProject do miejsca przeznaczenia.
 
 UWAGA!!!!
+
+
+Wypakowujemy go do:
+
+C:\Program Files\Apache Software Foundation\apache-maven-3.1.1\bin
+
 
 4) Odpalamy "START"->cmd i następnie:
 
