@@ -63,11 +63,13 @@ C:\Program Files\Apache Software Foundation\apache-maven-3.1.1\bin
 
 Aby kompilacja się udała musimy zmienić katalog w miejsce gdzie znajduje się nasz projekt (niesamowicie konieczne jest aby kompilator miał w swoim zakresie działania plik pom.xml).Zmieniamy katalog w nstp. sposób (w naszym przypadku):
 
-cd C:\Program Files\Apache Software Foundation\apache-maven-3.1.1\bin
+cd C:\Program Files\Apache Software Foundation\apache-maven-3.1.1\bin\HelloWorldProject
 
 Kolejny krok to skompilowanie aplikacji. Robimy to poprzez funkcję:
 
 mvn package
+
+(Proszę zwrócić uwagę na to iż wykonano jeden UDANY test)
 
 Następnie odpalamy aplikację po kompilacji:
 
