@@ -1,38 +1,20 @@
-package com.mycompany.helloworldproject;
-
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
-
-/**
- * Unit test for simple App.
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
  */
-public class AppTest 
-    extends TestCase
-{
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public AppTest( String testName )
-    {
-        super( testName );
-    }
+package com.mycompany.helloworldproject;
+import junit.framework.TestCase;
 
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( AppTest.class );
-    }
 
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( true );
+public class AppTest extends TestCase {
+    
+    public AppTest(String testName) {
+        super(testName);
     }
+    
+    public void testApplication(){
+        PrinterOut po = new PrinterOut();
+        assertEquals("Change String!","Hello World!",po.out);
+    }
+    
 }
