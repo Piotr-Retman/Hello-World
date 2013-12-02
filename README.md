@@ -15,7 +15,7 @@ W sposób następujący:
 
 a)
 
--Tworzymy katalog na dysku C np: C:\Program Files\Apache Software Foundation i wypakowujemy zawartość apache-maven-3.1.1-bin.zip do niego. Zatem pełna ścieżka będzie wyglądać po wypakowaniu tak:
+-Tworzymy katalog na dysku C np: C:\Program Files\Apache Software Foundation\ i wypakowujemy zawartość apache-maven-3.1.1-bin.zip do niego. Zatem pełna ścieżka będzie wyglądać po wypakowaniu tak:
 
 C:\Program Files\Apache Software Foundation\apache-maven-3.1.1
 
